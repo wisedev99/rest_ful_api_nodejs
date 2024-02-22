@@ -1,0 +1,32 @@
+{
+  "name": "rest_full_api",
+  "version": "1.0.0",
+  "description": "Develop a RESTful API using Node.js and Express to manage a resource called \"Tasks\".",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisedev99/rest_ful_api_nodejs.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Jest",
+    "Mocha"
+  ],
+  "author": "Aliakbar Boistov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisedev99/rest_ful_api_nodejs/issues"
+  },
+  "homepage": "https://github.com/wisedev99/rest_ful_api_nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "winston": "^3.11.0"
+  }
+}
